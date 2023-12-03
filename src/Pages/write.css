@@ -1,0 +1,80 @@
+.add{
+    display:flex;
+    gap: 40px;
+    margin: 20px 10px;
+    
+
+ 
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    flex: 3;
+    margin-left: 100px;
+}
+
+.editor-container{
+    height: 300px;
+    overflow: scroll;
+    border: 1px solid lightgray;
+}
+
+.editor{
+    height: 100%;
+    border: none;
+}
+
+.content input{
+    padding: 10px;
+    border: 1px solid lightgray;
+    
+
+}
+
+.menu{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.menu .item{
+    padding:10px 20px;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #555;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button:first-child{
+    background: #fff;
+    color: teal;
+    padding: 5px 5px;
+    border: 1px solid teal;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+
+}
+
+.buttons button:last-child{
+    background: teal;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 5px 5px ;
+}
+
+.cat{
+    display: flex;
+    gap: 10px;
+    color: teal;
+    margin-top: 20px;
+}

@@ -1,0 +1,39 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.menu-post{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.menu-post h3{
+    text-align: justify;
+    font-size: 20px;
+    
+}
+
+.menu-post img{
+    width: 450px;
+    height: 250px;
+    object-fit: cover;
+
+}
+
+.menu-btn{
+    width: 90px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid teal;
+    cursor: pointer;
+}
+
+.menu-btn:hover{
+    border: 1px solid #fff;
+    background: teal;
+    color: #fff;
+}
